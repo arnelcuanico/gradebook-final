@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="GradebookFinal.Views.ItemsPage"
+             Title="{Binding Title}"
+             x:Name="BrowseItemsPage1">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Add" Clicked="AddItem_Clicked" />
+    </ContentPage.ToolbarItems>
+
+    <ContentPage.Content>
+        <StackLayout>
+            <ListView 
+                x:Name="ItemsListView1" 
+                BackgroundColor="White"
+                ItemsSource="{Binding Items}"
+                VerticalOptions="FillAndExpand"
+                HasUnevenRows="true"
+                SeparatorVisibility="None"
+                RefreshCommand="{Binding LoadItemsCommand}"
+                IsPullToRefreshEnabled="true"
+                IsRefreshing="{Binding IsBusy, Mode=OneWay}"
+                CachingStrategy="RecycleElement"
+                ItemSelected="OnItemSelected">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Frame BorderColor="DarkGray" Padding="15" Margin="5" HasShadow="True" CornerRadius="10">
+                                <StackLayout Orientation="Horizontal" Margin="0" Padding="0">
+                                    <BoxView Color="{Binding BoxColor}" WidthRequest="4" Margin="0" />
+                                    <Grid VerticalOptions="FillAndExpand" Padding="0" Margin="0" HorizontalOptions="FillAndExpand" BackgroundColor="White">
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="*"/>
+                                            <RowDefinition Height="Auto"/>
+                                        </Grid.RowDefinitions>
+                                        <Grid Grid.Row="0" VerticalOptions="FillAndExpand" Padding="0" Margin="0" HorizontalOptions="FillAndExpand" BackgroundColor="White">
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition Height="Auto"/>
+                                                <RowDefinition Height="Auto"/>
+                                            </Grid.RowDefinitions>
+
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="30*" />
+                                                <ColumnDefinition Width="30*" />
+
+                                            </Grid.ColumnDefinitions>
+
+
+                                            <Label  Grid.Column="1" Text="{Binding xxx}"/>
+                                            <Label Grid.Column="2" Text="{Binding xxx}"/>
+
+                                            <Label FontAttributes="Bold" Grid.Row="0" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" FontSize="Default" Text="{Binding Text}" Margin="0" />
+                                            <Label Grid.Row="1" VerticalTextAlignment="Start" FontSize="Small" Text="{Binding Description}"  Margin="0" />
+                                            <Label Grid.Row="2" VerticalTextAlignment="Start" FontSize="Small" Text="{Binding room}"  Margin="0" />
+                                            <Label Grid.Row="3" VerticalTextAlignment="Start" FontSize="Small" Text="{Binding schedule}"  Margin="0" />
+                                            <StackLayout Grid.Row="2" Orientation="Horizontal">
+                                                <Image WidthRequest="10" HeightRequest="10" Source="ic_calendar" VerticalOptions="Center" />
+                                                <Label HorizontalTextAlignment="Start" VerticalTextAlignment="Center" FontSize="Micro" Text="{Binding PublishDate}"/>
+                                            </StackLayout>
+                                        </Grid>
+                                    </Grid>
+                                </StackLayout>
+                            </Frame>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+    
+</ContentPage>

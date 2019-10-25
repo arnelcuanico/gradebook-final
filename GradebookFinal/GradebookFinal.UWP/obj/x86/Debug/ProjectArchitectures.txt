@@ -1,0 +1,1 @@
+C:\Users\acuanico\source\repos\GradebookFinal\GradebookFinal\GradebookFinal.UWP\GradebookFinal.UWP.csproj;x86

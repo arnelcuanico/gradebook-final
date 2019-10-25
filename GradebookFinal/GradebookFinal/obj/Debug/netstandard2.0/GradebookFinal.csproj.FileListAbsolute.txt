@@ -1,0 +1,16 @@
+C:\Users\acuanico\source\repos\GradebookFinal\GradebookFinal\GradebookFinal\bin\Debug\netstandard2.0\GradebookFinal.deps.json
+C:\Users\acuanico\source\repos\GradebookFinal\GradebookFinal\GradebookFinal\bin\Debug\netstandard2.0\GradebookFinal.dll
+C:\Users\acuanico\source\repos\GradebookFinal\GradebookFinal\GradebookFinal\bin\Debug\netstandard2.0\GradebookFinal.pdb
+C:\Users\acuanico\source\repos\GradebookFinal\GradebookFinal\GradebookFinal\obj\Debug\netstandard2.0\GradebookFinal.csprojAssemblyReference.cache
+C:\Users\acuanico\source\repos\GradebookFinal\GradebookFinal\GradebookFinal\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\acuanico\source\repos\GradebookFinal\GradebookFinal\GradebookFinal\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
+C:\Users\acuanico\source\repos\GradebookFinal\GradebookFinal\GradebookFinal\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
+C:\Users\acuanico\source\repos\GradebookFinal\GradebookFinal\GradebookFinal\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
+C:\Users\acuanico\source\repos\GradebookFinal\GradebookFinal\GradebookFinal\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\acuanico\source\repos\GradebookFinal\GradebookFinal\GradebookFinal\obj\Debug\netstandard2.0\Views\MenuPage.xaml.g.cs
+C:\Users\acuanico\source\repos\GradebookFinal\GradebookFinal\GradebookFinal\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
+C:\Users\acuanico\source\repos\GradebookFinal\GradebookFinal\GradebookFinal\obj\Debug\netstandard2.0\GradebookFinal.AssemblyInfoInputs.cache
+C:\Users\acuanico\source\repos\GradebookFinal\GradebookFinal\GradebookFinal\obj\Debug\netstandard2.0\GradebookFinal.AssemblyInfo.cs
+C:\Users\acuanico\source\repos\GradebookFinal\GradebookFinal\GradebookFinal\obj\Debug\netstandard2.0\GradebookFinal.dll
+C:\Users\acuanico\source\repos\GradebookFinal\GradebookFinal\GradebookFinal\obj\Debug\netstandard2.0\GradebookFinal.pdb
+C:\Users\acuanico\source\repos\GradebookFinal\GradebookFinal\GradebookFinal\obj\Debug\netstandard2.0\XamlC.stamp
